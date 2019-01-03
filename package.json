@@ -1,0 +1,43 @@
+{
+  "name": "@jbutz/serverless-image-resize",
+  "version": "1.0.0",
+  "description": "A simple serverless function to resize images",
+  "keywords": [
+    "resize",
+    "serverless",
+    "zeit",
+    "now.sh"
+  ],
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "dev": "micro-dev",
+    "lint": "npx eslint index.js",
+    "deploy": "npx now"
+  },
+  "author": {
+    "name": "Jason Butz",
+    "url": "https://jasonbutz.info"
+  },
+  "homepage": "https://github.com/jbutz/serverless-image-resize#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbutz/serverless-image-resize.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-plugin-node": "^8.0.0",
+    "micro-dev": "^3.0.0",
+    "now": "^12.1.14"
+  },
+  "dependencies": {
+    "jimp": "^0.6.0",
+    "micro": "^9.3.3"
+  },
+  "engines": {
+    "node": "^8.0.0"
+  }
+}
